@@ -301,9 +301,7 @@ nav a:hover {
   
   /* Small screens */
 
-  .overlay {
-    display: none;
-  }
+ 
 
   @media all and (max-width: 500px) {
     nav ul {
@@ -332,6 +330,9 @@ nav a:hover {
     .footer-nav {
         width: 90%;
     }
+    .overlay {
+        display: none;
+      }
     
   }
 
