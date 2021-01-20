@@ -333,7 +333,10 @@ nav a:hover {
     .overlay {
         display: none;
       }
-    
+
+    .item-3-cards h2 {
+        font-size: 0.8rem;
+    }
   }
 
 
