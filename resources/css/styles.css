@@ -1,0 +1,307 @@
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+    font-size: 16px;
+    margin:0; padding:0;
+  }
+
+body {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 15px;
+    background-color: #7b3838;
+}
+    
+header {
+    display: flex;
+    text-align: center;
+    padding-top: 40px;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.20) 59%,
+     rgba(0, 0, 0, 0.65) 100%),url("../images/hero-cafe.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 90%, 0% 100%);
+    justify-content: center; 
+    padding-top: 75px;
+    
+}
+
+.header-content-container {
+    width:95%;
+}
+
+header h1 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 7rem;
+    margin-bottom: 20px;
+    color: #fff;
+    display: inline-block;
+    position: relative;
+    top:-4rem;
+    text-shadow: 3px 3px 5px rgba(0,0,0,0.9); 
+}
+
+.coffee-cup-container {
+    height: 250px;
+    overflow: hidden;
+    display: inline-block;
+    }
+
+.coffee-cup-container img {
+    max-height: 100%;
+    width: auto;
+    display: block;
+    margin: 0 auto;
+    }
+
+
+nav {
+    width: 100%;
+    position: fixed;
+    z-index: 10001;
+    background-color: #7b3838;
+    text-transform: uppercase;
+    border-bottom: solid 1px rgba(252, 248, 248, 0.5);
+    }
+
+nav ul {
+    display: flex;    
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    }
+
+nav li{
+    font-size: 1.2rem;
+    list-style: none;
+    padding: 20px 20px 25px;
+    text-align: center;    
+    }
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid rgba(250, 250, 250, 0.5);
+    border-radius: 20px;
+    padding: 5px 32px; 
+    transition: 0.5s;        
+    }
+
+nav a:hover {
+    color: rgb(248, 233, 233);
+    border: 1px solid rgba(82, 81, 81 0.9);
+    border-radius: 20px;
+    padding: 5px 32px;
+    background: rgba(250, 250, 250, 0.2);    
+    }
+
+.container-1 {
+    height: auto;
+    background-color: #f9e8a7;
+    text-align: center;
+    margin: auto 0;
+    padding: 0% 10%;
+    color: rgba(0, 0, 0, 0.70)
+}
+
+.container-1 h1 {
+    padding-top: 15px;
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.container-1 h1 span {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 3.3rem;
+}
+
+.container-1 p {
+    margin-top: 15px;
+    font-size: 1.3rem;
+    padding-bottom:20px;
+}
+
+
+.meet {
+    font-size: 2rem;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    text-align: center;
+    color: rgba(253, 247, 247, 0.699);
+}
+.container-2 {
+    display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.item-3-cards {
+  width:30%;
+  height: auto;
+  min-height: 200px;
+  overflow: hidden;
+  margin: 2% 1%;
+  background-color: rgba(27, 27, 27, 0.5);
+}
+
+.item-3-cards img {
+  width: 100%;
+  height: auto;
+  transition: transform .9s ease;  
+    }
+.item-3-cards:hover img {
+    transform: scale(1.2);  
+  }
+
+.item-3-cards h2 {
+    z-index: 100;
+    position: relative;
+    color: rgba(253, 247, 247, 0.699);
+    background-color: rgba(27, 27, 27, 0.836);
+    padding: 5px;
+    font-weight: 200;
+}
+
+.follow {
+    padding-top: 100px;
+    background-color: #f9dcc4;
+    text-align: center;
+}
+
+.container-3 {
+    background-color: #f9e8a7;
+    display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: auto;
+  min-height: 200px;
+  overflow: hidden;
+}
+
+.container-3 a {
+    width:30%;
+    height: auto;
+    min-height: 200px;
+    overflow: hidden;
+    margin: 5% 1%;
+    text-align:center;
+    text-decoration: none;
+    color: rgba(61, 60, 60, 0.699);
+}
+
+.container-3 img {
+    width: 100%;
+    height: auto;
+    border-radius: 100%;
+    transition: transform .9s ease; 
+    }
+
+.container-3 img:hover {
+    transform: scale(.8)
+}
+
+.container-4 {
+    height: 140px;
+    }
+
+.footer-nav {
+    width:50%;
+    margin: 0 auto;
+}
+
+.footer-nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.footer-nav li {
+    font-size: 1.3rem;
+    padding: 0 15px;
+    list-style: none;
+}
+
+.footer-nav a {
+    color: black;
+    text-decoration: none;
+}
+
+.footer-nav a:hover {
+    color: rgba(27, 27, 27, 0.836);
+}
+
+.social-nav {
+    width:250px;;
+    margin: 0 auto;
+    padding: 15px 0px 20px 0px  ;
+}
+
+.social-nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    }
+
+.social-nav img {
+    -webkit-filter: none;
+    -moz-filter: none;
+    filter: grayscale(80%);
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    height:40px;
+}
+.social-nav img:hover {
+    -webkit-filter: grayscale(0%);
+     -moz-filter: grayscale(0%);
+     filter: grayscale(0%);
+     filter: none;
+}
+  
+  /* Medium screens */
+  @media all and (max-width: 800px) {
+    nav ul {
+      justify-content: space-around;
+    }
+  }
+  
+  /* Small screens */
+  @media all and (max-width: 500px) {
+    nav ul {
+      flex-direction: column;
+    }
+    nav { position: relative; }
+    nav li { padding: 15px 20px 15px; }
+    header { padding-top:0px; }
+    header h1 { font-size: 4rem;} 
+    .coffee-cup-container {
+        width: 100%;
+        height: 150px;
+        margin-bottom:20%;
+      }
+      header h1 {
+          position: relative;
+          top: 0px;
+      }
+    .container-1 h1 {
+        line-height: 2.7rem;
+    }
+    .container-1 p {
+        margin: 10px 40px 0px 40px;
+        font-size: 1rem;
+    }
+    .footer-nav {
+        width: 90%;
+    }
+    
+  }
+
+
+
+
+
